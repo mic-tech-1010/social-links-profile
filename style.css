@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+    font-weight: 700;
+}
+  @font-face {
+    font-family: "inter";
+    src: url("./assets/fonts/static/Inter-Bold.ttf");
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family:"inter" ;
+    src: url("./assets/fonts/static/Inter-Regular.ttf");
+    font-weight: 400;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 0%);
+    font-family: inter;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    width: 20rem;
+    height: 31.1875rem;
+    border: 1px solid black;
+    padding: 1.2rem;
+    border-radius: 10px;
+}
+
+.avatar-img {
+    width: 4.2rem;
+    border-radius: 50%;
+}
+
+,avatar-jessica {
+
+}
+
+.location {
+
+}
+
+.sub-heading {
+
+}
+
+.social {
+    height:1.8rem ;
+     width: 100%;
+     background-color: hsl(0, 0%, 20%);
+     border: 1px solid;
+     border-radius: 5px;
+     padding-block: 0.5rem;
+}
+
+.social p {
+    font-size: 14px;
+}

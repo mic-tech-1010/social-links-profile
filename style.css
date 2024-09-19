@@ -7,18 +7,18 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 @font-face {
-    font-family: "inter";
+    font-family: "Inter";
     src: url("./assets/fonts/static/Inter-SemiBold.ttf");
     font-weight: 700;
 }
   @font-face {
-    font-family: "inter";
+    font-family: "Inter";
     src: url("./assets/fonts/static/Inter-Bold.ttf");
     font-weight: 700;
   }
 
   @font-face {
-    font-family:"inter" ;
+    font-family:"Inter" ;
     src: url("./assets/fonts/static/Inter-Regular.ttf");
     font-weight: 400;
 }
@@ -31,7 +31,7 @@ html, body{
 body{
     margin: 0;
     background-color: hsl(0, 0%, 0%);
-    font-family: inter;
+    font-family: Inter;
     display: grid;
     place-items: center;
 }
@@ -47,7 +47,7 @@ body{
     width: 20rem;
     height: 31.1875rem;
     border: 1px solid black;
-    padding: 1.2rem;
+    padding: 1.5rem;
     border-radius: 10px;
 }
 
@@ -57,26 +57,45 @@ body{
 }
 
 .avatar-jessica {
-
+    font-weight: 700;
+    margin-top: 10px;
 }
 
 .location {
-
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
 }
 
 .sub-heading {
+       font-size: 14px;
+       color: hsl(0, 0%, 70%);
+}
 
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 55%;
 }
 
 .social {
     height:1.8rem ;
      width: 100%;
      background-color: hsl(0, 0%, 20%);
-     border: 1px solid;
-     border-radius: 5px;
-     padding-block: 0.6rem;
+     border: 1px solid hsl(0, 0%, 8%);
+     border-radius: 7px;
+     color: white;
+     font-family: Inter;
+     font-weight: 600;
+     text-align: center;
+     display: inline-block;
+     cursor: pointer;
+     padding-bottom: 24px;
+     padding-top: 12px;
+     
+    
 }
 
-.social p {
-    font-size: 14px;
-}
